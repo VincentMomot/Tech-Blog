@@ -1,0 +1,88 @@
+*{
+    font-family: sans-serif;
+}
+
+body{    
+    background-color: rgb(190, 255, 233);
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    background-color: black;
+
+    
+}
+#title{
+    font-size: 100px; 
+    color:aquamarine;
+
+}
+
+#buttons{
+    font-size: larger;
+    max-height: 50px;
+}
+
+#homeBtn, #dashboardBtn, #loginBtn{
+    background-color: aquamarine;
+}
+
+#homeBtn:hover, #dashboardBtn:hover, #loginBtn:hover{
+    background-color:rgb(118, 233, 175);
+}
+
+#homeBtn:focus, #dashboardBtn:focus, #loginBtn:focus{
+    background-color:rgb(95, 189, 142);
+}
+
+
+#card{
+    max-width: 80%; 
+    border:3px solid black;
+    margin-left: 10%;
+    margin-top:10px;
+}
+
+#cardTop{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;    
+    padding-left: 5px;
+    color:rgb(161, 161, 161);
+    }
+#cardBot p, #cardBot h3{
+    padding-top: 10px;
+}
+#postText{
+    margin-left: 10px;
+}
+h3{
+    font-size: medium;
+    margin-bottom: 2px;
+}
+
+#loginCard{
+    max-width: 80%; 
+    border:3px solid black;
+    margin-left: 10%;
+    margin-top:10px;
+}
+
+#submitLogin{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#loginFormat{
+    margin-left: 10px;
+}
+
+#signupLink{
+    margin-left: 10.3%;
+    color:blue;
+    text-decoration: none;
+}
